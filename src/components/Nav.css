@@ -1,0 +1,75 @@
+nav{
+    background-color: #272319;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-brand{
+    font-size: x-large;
+}
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight:bolder;
+    color: #ffffff;
+}
+.navbar-brand span{
+    font-family: 'Poppins', sans-serif;
+    color: #e0d3af;
+}
+.nav-item .active {
+    color: #e0d3af;
+  }
+.collapse{
+    display: flex;
+    justify-content: end;
+}
+.collapse a{
+    color: #b19f6f;
+    margin: 10px;
+    font-size: larger;
+}
+.favicon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -7px;
+    border: 1px solid #8a7c56;
+}
+.favicon i{
+    font-size: 15px;
+    margin: 16px;
+    color:#8a7c56;
+}
+.favicon:hover i{
+    color: #e0d3af;
+    transition: 0.5s;
+}
+.favicon:hover{
+   background-color: #8a7c56;
+    transition: 0.5s; 
+}
+.dropdown-menu {
+    background-color: #f8f9fa;
+    padding: 8px 0;
+}
+
+.dropdown-item:hover {
+    color: #8a7c56;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.dropdown-item a {
+    color: #8a7c56;
+    text-decoration: none;
+}
+
+.dropdown-item a:hover {
+    text-decoration: underline;
+}
+
+.active{
+    background-color: transparent !important;
+}

@@ -1,0 +1,119 @@
+.info_section {
+    padding: 20px;
+    background-color: #f0ede4;
+    color: #8a7c56;
+}
+
+.info_section .info_form_social_row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.info_section .info_form {
+    width: 100%;
+}
+
+.info_section .info_form form {
+    display: flex;
+    align-items: flex-end;
+}
+
+.info_section .info_form form input {
+    flex: 1;
+    background-color: #ffffff;
+    height: 50px;
+    padding-left: 15px;
+    outline: none;
+    color: #272319;
+    border: none;
+    border-bottom: 1px solid #8a7c56;
+}
+
+.info_section .info_form form input::placeholder {
+    font-size: 1.1rem;
+    color: #9c9c9c;
+}
+
+.info_section .info_form form button {
+    background-color: #8a7c56;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    padding: 15.5px 25px;
+    border-radius: 0;
+    border: 1px solid #8a7c56;
+    transition: all .2s;
+}
+
+.info_section .info_form form button:hover {
+    background-color: transparent;
+    color: #8a7c56;
+}
+
+.info_section .social_box {
+    font-size: 1.3rem;
+    width: 100%;
+    display: flex;
+}
+
+.info_section .social_box a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #b19f6f;
+    color: #b19f6f;
+    margin-right: 10px;
+}
+
+.info_section .social_box a:hover {
+    color:#8a7c56;
+    border: 2px solid #8a7c56;
+}
+
+.info_section h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.info_section .info_links .info_links_menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_section .info_links .info_links_menu a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #b19f6f;
+}
+
+.info_section .info_links .info_links_menu a:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.info_section .info_links .info_links_menu a:hover {
+    color: #8a7c56;
+    font-weight: bold;
+}
+
+.info_section .info_contact p i {
+    margin-right: 5px;
+    width: 25px;
+}
+
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight:bolder;
+    color: #272319;
+}
+.navbar-brand span{
+    font-family: 'Poppins', sans-serif;
+    color: #e0d3af;
+}
